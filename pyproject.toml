@@ -3,6 +3,9 @@ name = "cv"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
+packages = [
+    { include = "plotting" },
+]
 
 [tool.poetry.dependencies]
 python = "3.8.12"
