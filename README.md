@@ -18,3 +18,20 @@ State-of-the-art, real-time object detection system. It doesn't use sliding wind
 - x and y - coordinate of upper left corner of object bounding box,
 - w and h - width and height of bounding box,
 - c1, ..., ck - classes representing objects.
+
+## Segmentation
+
+![Segmentation vs Classification vs Detection](imgs/readme/seg_types.png)
+
+### Panoptic Segmentation
+
+Whole picture is segmented. Otherwords every pixel is assign to class.
+
+## Additional infos
+
+To install `detectron2` library run:
+
+```bash
+poetry
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+```
